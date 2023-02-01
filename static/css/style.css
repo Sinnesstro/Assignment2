@@ -1,0 +1,43 @@
+/* Header */
+header{
+    border-bottom: 1px solid black;
+}
+a {
+    color: black;
+}
+
+li {
+    display: inline;
+    margin-right: 66px;   
+}
+.first-item{
+    margin-left: 537px;
+}
+/* Image style */
+div{
+    margin-left: 400px;
+    margin-bottom: 117px;
+}
+.column {
+    float: left;
+    padding: 5px;
+    margin-left: 91px;
+    border: 2px solid black;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: inline;
+}
+img{
+    height: 359px;
+    width: 347.94px;
+}
+p{
+    width: 287px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.btn{
+    float: right;
+}
